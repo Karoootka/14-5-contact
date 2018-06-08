@@ -1,0 +1,51 @@
+.app {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+form input {
+  margin: 10px;
+  height: 30px;
+}
+
+form button {
+  height: 40px;
+  width: 120px;
+}
+
+.contactsList {
+  padding: 0;
+  border: 1px solid #d3d3d3;
+  max-width: 700px;
+  margin: 20px auto;
+  padding: 30px;
+}
+
+.contactItem {
+  background-color: #d3d3d3;
+  height: 70px;
+  margin: 10px;
+  padding: 10px 0 10px 40px;
+  font-size: 18px;
+  text-align: left;
+}
+.contactItem img {
+  float: left;
+  height: 70px;
+}
+
+.contactItem p {
+  margin: 0;
+  padding-left: 100px;
+  line-height: 25px;
+}
+
+.contactItem a {
+  display: block;
+  padding-left: 100px;
+  color: #2b2b2b;
+}
+
+.contactItem a:hover {
+  color: #138496;
+}
